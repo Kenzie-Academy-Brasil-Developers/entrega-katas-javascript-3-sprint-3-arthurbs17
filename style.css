@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+body{
+    font-size: 18px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #6495ed;
+}
+
+#katas{
+    padding: 20px;
+}
+
+#katas div:nth-child(n){
+    background-color: #fff;
+    color: #8b0000;
+    text-align: center;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+    border: 2px solid #6495ed;
+    padding: 5px;
+}
+
+#katas div:nth-child(1)::before{
+    content: "Kata 1: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(2)::before{
+    content: "Kata 2: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(3)::before{
+    content: "Kata 3: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(4)::before{
+    content: "Kata 4: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(5)::before{
+    content: "Kata 5: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(6)::before{
+    content: "Kata 6: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(7)::before{
+    content: "Kata 7: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(8)::before{
+    content: "Kata 8: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(9)::before{
+    content: "Kata 9: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(10)::before{
+    content: "Kata 10: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(11)::before{
+    content: "Kata 11: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(12)::before{
+    content: "Kata 12: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(13)::before{
+    content: "Kata 13: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(14)::before{
+    content: "Kata 14: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(15)::before{
+    content: "Kata 15: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(16)::before{
+    content: "Kata 16: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(17)::before{
+    content: "Kata 17: ";
+    font-weight: bold;
+}
+
+#katas div:nth-child(18)::before{
+    content: "Kata 18: ";
+    font-weight: bold;
+}
+
+#box div ul li:nth-child(n){
+    display: block;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: grey;
+}

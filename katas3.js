@@ -297,10 +297,11 @@ function kataBonus1() {
 
 function kataBonus2() {
     // implemente o código do kata bonus 2 aqui
+    
     let boxes = document.querySelectorAll('#box > div > ul > li:nth-child(n)');
     let boxArrays = [...boxes];
     let boxSizes = [];
-    let firstSize = 100
+    let firstSize = 0
 
     for (let i = 0; i < boxArrays.length; i++){
         firstSize += 5
@@ -316,15 +317,9 @@ function kataBonus2() {
 
 function kataBonus3() {
     // implemente o código do kata bonus 3 aqui
+    
     let boxes = document.querySelectorAll('#box > div > ul > li:nth-child(n)');
     let boxArrays = [...boxes];
-    let boxSizes = [];
-    let firstSize = 100
-
-    for (let i = 0; i < boxArrays.length; i++){
-        firstSize += 5
-        boxSizes.push(firstSize);
-    }
 
     for (let i = 0; i < boxArrays.length; i++){
         boxArrays[i].style.width = sampleArray[i].toString()+'px'

@@ -10,7 +10,7 @@ h1{
 }
 
 #katas{
-    padding-left: 40px;
+    padding: 20px;
 }
 
 #katas div:nth-child(n){
@@ -111,6 +111,11 @@ h1{
 #katas div:nth-child(18)::before{
     content: "Kata 18: ";
     font-weight: bold;
+}
+
+
+#box{
+    padding: 20px;
 }
 
 #box div ul li:nth-child(n){

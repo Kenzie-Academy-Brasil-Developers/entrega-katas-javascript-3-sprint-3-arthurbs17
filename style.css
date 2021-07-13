@@ -10,7 +10,7 @@ h1{
 }
 
 #katas{
-    padding: 20px;
+    padding-left: 40px;
 }
 
 #katas div:nth-child(n){
@@ -20,7 +20,7 @@ h1{
     margin-bottom: 10px;
     word-spacing: 10px;
     border: 2px solid #6495ed;
-    padding: 5px;
+    padding-left: 4px;
 }
 
 #katas div:nth-child(1)::before{
@@ -118,5 +118,40 @@ h1{
     width: 100px;
     height: 20px;
     margin-bottom: 10px;
-    background-color: grey;
+    background-color: #808080;
+}
+
+#box div:nth-child(4) ul li:nth-child(odd){
+    background-color: #8b0000;
+}
+
+#box div:nth-child(n) {
+    margin-bottom: 40px;
+    border: 2px solid #6495ed;
+    color: #8b0000;
+}
+
+#box div:nth-child(1)::before {
+    content: "Kata Bônus 1:";
+    padding-left: 40px;
+}
+
+#box div:nth-child(2)::before {
+    content: "Kata Bônus 2:";
+    padding-left: 40px;
+}
+
+#box div:nth-child(3)::before {
+    content: "Kata Bônus 3:";
+    padding-left: 40px;
+}
+
+#box div:nth-child(4)::before {
+    content: "Kata Bônus 4:";
+    padding-left: 40px;
+}
+
+#box div:nth-child(5)::before {
+    content: "Kata Bônus 5:";
+    padding-left: 40px;
 }

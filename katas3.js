@@ -298,10 +298,14 @@ function kataBonus1() {
 function kataBonus2() {
     // implemente o código do kata bonus 2 aqui
     
-    let boxes = document.querySelectorAll('#box > div > ul > li:nth-child(n)');
+    kataBonus1();
+
+    let boxes = document.querySelectorAll('#box div:nth-child(2) ul li:nth-child(n)');
+    
+
     let boxArrays = [...boxes];
     let boxSizes = [];
-    let firstSize = 0
+    let firstSize = 100
 
     for (let i = 0; i < boxArrays.length; i++){
         firstSize += 5
@@ -312,28 +316,52 @@ function kataBonus2() {
         boxArrays[i].style.width = boxSizes[i].toString()+'px'
     }
     
-    showBox(boxArrays)
+    
 }
 
 function kataBonus3() {
     // implemente o código do kata bonus 3 aqui
+    kataBonus1();
     
-    let boxes = document.querySelectorAll('#box > div > ul > li:nth-child(n)');
+    let boxes = document.querySelectorAll('#box div:nth-child(3) ul li:nth-child(n)');
+   
     let boxArrays = [...boxes];
 
     for (let i = 0; i < boxArrays.length; i++){
         boxArrays[i].style.width = sampleArray[i].toString()+'px'
     }
 
-    showBox(boxArrays)
+    
 }
 
 function kataBonus4() {
     // implemente o código do kata bonus 4 aqui
+    kataBonus1();
+
+    let boxes = document.querySelectorAll('#box div:nth-child(4) ul li:nth-child(n)');
+   
+    let boxArrays = [...boxes];
+
+    for (let i = 0; i < boxArrays.length; i++){
+        boxArrays[i].style.width = sampleArray[i].toString()+'px'
+    }
+
 }
 
 function kataBonus5() {
     // implemente o código do kata bonus 5 aqui
+    kataBonus1();
+
+    let boxes = document.querySelectorAll('#box div:nth-child(5) ul li:nth-child(n)');
+   
+    let boxArrays = [...boxes];
+
+    for (let i = 0; i < boxArrays.length; i++){
+        boxArrays[i].style.width = sampleArray[i].toString()+'px'
+        if (sampleArray[i] % 2 === 0){
+            boxArrays[i].style.backgroundColor = 'darkred'
+        }
+    }
 }
 
 kata1();
@@ -358,3 +386,5 @@ kata18();
 kataBonus1();
 kataBonus2();
 kataBonus3();
+kataBonus4();
+kataBonus5();

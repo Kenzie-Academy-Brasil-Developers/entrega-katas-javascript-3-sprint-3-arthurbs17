@@ -210,36 +210,26 @@ function kata14() {
 
 function kata15() {
     // implemente o código do kata 15 aqui
-    let arrayKata = [];
     let sumValor = 0
 
     for (let i = 1; i <= 20; i++){
         sumValor += i
     }
-    
-    arrayKata.push(sumValor)
 
-    resultKata = arrayKata.join(", ");
-
-    showResults(resultKata);
-    return resultKata
+    showResults(sumValor);
+    return sumValor
 }
 
 function kata16() {
     // implemente o código do kata 16 aqui
-    let arrayKata = [];
-    let sumValor = 0
+    let sumValor = 0;
 
     for (let i = 0; i < sampleArray.length; i++){
         sumValor += sampleArray[i]
     }
-    
-    arrayKata.push(sumValor)
 
-    resultKata = arrayKata.join(", ");
-
-    showResults(resultKata);
-    return resultKata
+    showResults(sumValor);
+    return sumValor
 }
 
 function kata17() {
@@ -328,12 +318,9 @@ function kataBonus2() {
     let firstSize = 100
 
     for (let i = 0; i < boxArrays.length; i++){
-        firstSize += 5
+        firstSize += 5;
         boxSizes.push(firstSize);
-    }
-
-    for (let i = 0; i < boxArrays.length; i++){
-        boxArrays[i].style.width = boxSizes[i].toString()+'px'
+        boxArrays[i].style.width = boxSizes[i]+'px'
     }
     
     return boxArrays
@@ -348,7 +335,7 @@ function kataBonus3() {
     let boxArrays = [...boxes];
 
     for (let i = 0; i < boxArrays.length; i++){
-        boxArrays[i].style.width = sampleArray[i].toString()+'px'
+        boxArrays[i].style.width = sampleArray[i]+'px'
     }
 
     return boxArrays
@@ -363,7 +350,7 @@ function kataBonus4() {
     let boxArrays = [...boxes];
 
     for (let i = 0; i < boxArrays.length; i++){
-        boxArrays[i].style.width = sampleArray[i].toString()+'px'
+        boxArrays[i].style.width = sampleArray[i]+'px'
     }
 
     return boxArrays
@@ -378,7 +365,7 @@ function kataBonus5() {
     let boxArrays = [...boxes];
 
     for (let i = 0; i < boxArrays.length; i++){
-        boxArrays[i].style.width = sampleArray[i].toString()+'px'
+        boxArrays[i].style.width = sampleArray[i]+'px'
         if (sampleArray[i] % 2 === 0){
             boxArrays[i].style.backgroundColor = 'darkred'
         }

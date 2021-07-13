@@ -23,6 +23,8 @@ function kata1() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+
+    return resultKata
 }
 
 function kata2() {
@@ -35,6 +37,7 @@ function kata2() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata3() {
@@ -47,6 +50,7 @@ function kata3() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata4() {
@@ -59,6 +63,7 @@ function kata4() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata5() {
@@ -73,6 +78,7 @@ function kata5() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata6() {
@@ -87,6 +93,7 @@ function kata6() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata7() {
@@ -101,6 +108,7 @@ function kata7() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata8() {
@@ -115,6 +123,7 @@ function kata8() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata9() {
@@ -129,6 +138,7 @@ function kata9() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata10() {
@@ -136,6 +146,7 @@ function kata10() {
     resultKata = sampleArray.join(", ")
     
     showResults(resultKata);
+    return resultKata
 }
 
 function kata11() {
@@ -150,6 +161,7 @@ function kata11() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata12() {
@@ -164,6 +176,7 @@ function kata12() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata13() {
@@ -178,6 +191,7 @@ function kata13() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata14() {
@@ -191,6 +205,7 @@ function kata14() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata15() {
@@ -207,6 +222,7 @@ function kata15() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata16() {
@@ -223,6 +239,7 @@ function kata16() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata17() {
@@ -242,6 +259,7 @@ function kata17() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 function kata18() {
@@ -261,6 +279,7 @@ function kata18() {
     resultKata = arrayKata.join(", ");
 
     showResults(resultKata);
+    return resultKata
 }
 
 /**
@@ -293,6 +312,7 @@ function kataBonus1() {
     }
 
     showBox(boxes)
+    return boxes
 }
 
 function kataBonus2() {
@@ -316,7 +336,7 @@ function kataBonus2() {
         boxArrays[i].style.width = boxSizes[i].toString()+'px'
     }
     
-    
+    return boxArrays
 }
 
 function kataBonus3() {
@@ -331,7 +351,7 @@ function kataBonus3() {
         boxArrays[i].style.width = sampleArray[i].toString()+'px'
     }
 
-    
+    return boxArrays
 }
 
 function kataBonus4() {
@@ -346,6 +366,7 @@ function kataBonus4() {
         boxArrays[i].style.width = sampleArray[i].toString()+'px'
     }
 
+    return boxArrays
 }
 
 function kataBonus5() {
@@ -362,6 +383,8 @@ function kataBonus5() {
             boxArrays[i].style.backgroundColor = 'darkred'
         }
     }
+
+    return boxArrays
 }
 
 kata1();
